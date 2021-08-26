@@ -7,8 +7,11 @@ import java.nio.file.Paths;
 public class Drone {
     public static void main(String[] args) {
         int[][] photo = {
-                {0, 4},
-                {1, 3}};
+                {0, 4, 3, 7, 1},
+                {0, 1, 2, 7, 7},
+                {4, 3, 2, 1, 5},
+                {0, 4, 3, 1, 2},
+                {1, 3, 3, 1, 1}};
 
         calculateDronePath(photo);
     }
